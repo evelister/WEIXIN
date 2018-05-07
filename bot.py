@@ -9,7 +9,7 @@ def get(i):
     return line
 
 def send(i):
-    myfriend = bot.friends().search('ANAN')[0]
+    myfriend = bot.friends().search('微信好友昵称')[0]
     myfriend.send(get(i))
     i += 1
 
